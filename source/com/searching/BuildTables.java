@@ -26,8 +26,9 @@ public class BuildTables {
 		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/assignment", "root", "H@resh2810");
 		
 		
-		
-		for(int line=1;line<arr.length;line++) {
+		int line=1;
+		while(line<arr.length) {
+			System.out.println(line);
 			int counter=1;
 			int lineNo=1;
 			String nextLine = null;
@@ -45,7 +46,7 @@ public class BuildTables {
 					if(line+counter==arr.length-1)
 						break;
 					nextLine=arr[line+counter];
-					System.out.println(counter);
+					
 					System.out.println(nextLine);
 					
 				}
