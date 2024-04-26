@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="source"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/commons-lang3-3.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/commons-fileupload-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/commons-io-2.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/commons-text-1.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/freemarker-2.3.32.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/javassist-3.29.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/log4j-api-2.20.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/ognl-3.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (2)/struts2-core-6.3.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/Login_Struts2-master/Login_Struts2-master/WebContent/WEB-INF/lib/mysql-connector-java-5.1.47.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/json-simple-1.1.jar/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/json-20140107.jar"/>
+	<classpathentry kind="lib" path="E:/jackson-core-2.16.1.jar"/>
+	<classpathentry kind="lib" path="E:/jackson-annotations-2.17.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/jackson-annotations-2.9.8-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/com.fasterxml.jackson.annotations.jar/com.fasterxml.jackson.annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/jar_files (3)/aspose-pdf-23.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sunda/Downloads/tika-app-2.9.2.jar"/>
+	<classpathentry kind="lib" path="E:/jar_files/log4j-core-2.20.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
