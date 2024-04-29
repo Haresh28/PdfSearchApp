@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+ <validators>
+	<field name="user">
+	        <field-validator type="requiredstring">
+	             <message>Username is required </message>
+	        </field-validator>
+	</field>
+	<field name="password">
+	        <field-validator type="requiredstring">
+	             <message>Password is required </message>
+	        </field-validator>
+	
+	        <field-validator type="stringlength">
+	             <param name="minLength">8</param>
+	             <message>Password must contain at least ${minLength} characters</message>
+	        </field-validator>
+	        <field-validator type="regex">
+	             <param name="regexExpression">^(?=.*[A-Z])(?=.*[!@#$&amp;*])(?=.*[0-9]).{8,}$</param>
+	             <message>Password must contain at least 1 capital letter,1 small letter and 1 special character</message>
+	        </field-validator>
+	 </field>
+</validators>
