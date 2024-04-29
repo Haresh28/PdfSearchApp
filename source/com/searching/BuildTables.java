@@ -5,6 +5,7 @@ import org.apache.tika.parser.*;
 import org.apache.tika.parser.pdf.*;
 import java.io.*;
 import java.sql.*;
+import java.util.ArrayList;
 
 public class BuildTables {
 	public void pdfExtraction() throws Exception{
@@ -21,11 +22,31 @@ public class BuildTables {
 		String extractedText=handler.toString();
 		String[] arr=extractedText.split("\\n");
 		
+		/*InputStreamReader inputStreamReader=new InputStreamReader(inputStream);
+		int val;
+		String pdfLine="";
+		ArrayList<String> list=new ArrayList<String>();
+		while((val=inputStreamReader.read())!=-1) {
+			if((char)val != '\n') {
+				pdfLine+=(char)val;
+				
+			}
+			else {
+				list.add(pdfLine);
+				pdfLine="";
+			}
+
+		}
+		String[] arr= new String[list.size()];
+		for(int i=0;i<list.size();i++) {
+			arr[i]=list.get(i);
+			System.out.println(arr[i]);
+		}*/
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/assignment", "root", "H@resh2810");
 		
-		
+		/*
 		int line=1;
 		while(line<arr.length) {
 			System.out.println(line);
@@ -73,6 +94,6 @@ public class BuildTables {
 			catch(Exception e){
 				e.printStackTrace();
 			}
-		}
+		}*/
 	}
 }

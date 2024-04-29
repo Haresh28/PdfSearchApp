@@ -22,8 +22,8 @@ public class AuthorizationInterceptor implements Interceptor {
 		// TODO Auto-generated method stub
 		ActionContext context=inv.getInvocationContext();
 		SessionMap map = (SessionMap) inv.getInvocationContext().getSession();
-		if(context.getActionName().equalsIgnoreCase("loginpage")|| context.getActionName().equalsIgnoreCase("register")||context.getActionName().equalsIgnoreCase("loginpage.action")
-				||context.getActionName().equalsIgnoreCase("login"))
+		if(context.getActionName().equalsIgnoreCase("loginpage")|| context.getActionName().equalsIgnoreCase("showRegister")||context.getActionName().equalsIgnoreCase("loginpage.action")
+				||context.getActionName().equalsIgnoreCase("login")||context.getActionName().equalsIgnoreCase("register"))
 	    {
 	        return inv.invoke();
 	    }
