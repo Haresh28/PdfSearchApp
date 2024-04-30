@@ -46,7 +46,7 @@ public class BuildTables {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/assignment", "root", "H@resh2810");
 		
-		/*
+		
 		int line=1;
 		while(line<arr.length) {
 			System.out.println(line);
@@ -94,6 +94,6 @@ public class BuildTables {
 			catch(Exception e){
 				e.printStackTrace();
 			}
-		}*/
+		}
 	}
 }
